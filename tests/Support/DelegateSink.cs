@@ -2,7 +2,7 @@
 using Serilog.Events;
 using System;
 
-namespace Serilog.Enrichers.Tests.Support
+namespace Serilog.Enrichers.RequestUserId.Tests.Support
 {
     public class DelegateSink : ILogEventSink
     {

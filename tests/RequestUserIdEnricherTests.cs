@@ -1,13 +1,12 @@
 ﻿using FluentAssertions;
 using Microsoft.AspNetCore.Http;
 using Moq;
-using Serilog.Enrichers.RequestUserId;
-using Serilog.Enrichers.Tests.Support;
+using Serilog.Enrichers.RequestUserId.Tests.Support;
 using Serilog.Events;
 using System.Security.Claims;
 using Xunit;
 
-namespace Serilog.Enrichers.Tests
+namespace Serilog.Enrichers.RequestUserId.Tests
 {
     public class RequestUserIdEnricherTests
     {

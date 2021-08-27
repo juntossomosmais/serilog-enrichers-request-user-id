@@ -1,11 +1,10 @@
 ﻿using FluentAssertions;
 using Serilog.Configuration;
-using Serilog.Enrichers.RequestUserId;
-using Serilog.Enrichers.Tests.Support;
+using Serilog.Enrichers.RequestUserId.Tests.Support;
 using System;
 using Xunit;
 
-namespace Serilog.Enrichers.Tests
+namespace Serilog.Enrichers.RequestUserId.Tests
 {
     public class RequestUserIdLoggerConfigurationExtensionsTests
     {

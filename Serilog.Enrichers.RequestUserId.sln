@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.RequestUserId", "src\Serilog.Enrichers.RequestUserId.csproj", "{0B8D49DA-C6E2-42E9-AD24-CF3194D84067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.Tests", "tests\Serilog.Enrichers.Tests.csproj", "{05444E8A-5D07-4AB1-85C8-83A83378EC58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.RequestUserId.Tests", "tests\Serilog.Enrichers.RequestUserId.Tests.csproj", "{05444E8A-5D07-4AB1-85C8-83A83378EC58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
