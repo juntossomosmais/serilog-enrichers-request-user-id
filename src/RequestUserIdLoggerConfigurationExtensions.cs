@@ -1,7 +1,8 @@
 ﻿using Serilog.Configuration;
+using Serilog.Enrichers;
 using System;
 
-namespace Serilog.Enrichers.RequestUserId
+namespace Serilog
 {
     public static class RequestUserIdLoggerConfigurationExtensions
     {

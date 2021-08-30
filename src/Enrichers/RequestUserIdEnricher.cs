@@ -2,7 +2,7 @@
 using Serilog.Core;
 using Serilog.Events;
 
-namespace Serilog.Enrichers.RequestUserId
+namespace Serilog.Enrichers
 {
     public class RequestUserIdEnricher : ILogEventEnricher
     {

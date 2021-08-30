@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Security.Claims;
 
-namespace Serilog
+namespace Serilog.Enrichers
 {
-    public static class ClaimsPrincipalExtensions
+    internal static class ClaimsPrincipalExtensions
     {
         public static string GetUserId(this ClaimsPrincipal claimsPrincipal)
         {
