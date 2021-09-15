@@ -55,7 +55,7 @@ namespace Serilog.Enrichers.RequestUserId.Tests
 
             // Assert
             logEvent.Properties.ContainsKey("RequestUserId").Should().BeTrue();
-            var requestUserId = ((ScalarValue) logEvent.Properties["RequestUserId"]).Value;
+            var requestUserId = ((ScalarValue)logEvent.Properties["RequestUserId"]).Value;
             requestUserId.Should().Be("");
         }
 
