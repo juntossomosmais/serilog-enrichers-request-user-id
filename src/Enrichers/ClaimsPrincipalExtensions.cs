@@ -9,9 +9,7 @@ namespace Serilog.Enrichers
         {
             var claims = claimsPrincipal.FindAll(t => t.Type is "cid" or "uid");
 
-            if (!claims.Any()) return string.Empty;
-
-            return claims.FirstOrDefault().Value;
+            return claims.FirstOrDefault()?.Value ?? string.Empty;
         }
     }
 }
