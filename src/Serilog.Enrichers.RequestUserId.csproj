@@ -7,6 +7,14 @@
     <PackageId>Serilog.Enrichers.RequestUserId</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Version>1.0.0</Version>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Authors>Juntos Somos Mais</Authors>
+    <Description>Enrich Serilog log events with the request's user Id from ClaimsPrincipal</Description>
+    <RepositoryUrl>https://github.com/juntossomosmais/serilog-enrichers-request-user-id</RepositoryUrl>
+    <PackageTags>serilog;enricher;userid</PackageTags>
+    <PackageIconUrl>https://serilog.net/images/serilog-enricher-nuget.png</PackageIconUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
