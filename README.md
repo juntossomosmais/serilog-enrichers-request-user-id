@@ -1,11 +1,18 @@
-# Serilog.Enrichers.RequestUserIid
-
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=juntossomosmais_serilog-enrichers-request-user-id&metric=coverage)](https://sonarcloud.io/dashboard?id=juntossomosmais_serilog-enrichers-request-user-id)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=juntossomosmais_serilog-enrichers-request-user-id&metric=alert_status)](https://sonarcloud.io/dashboard?id=juntossomosmais_serilog-enrichers-request-user-id)
+# Serilog.Enrichers.RequestUserId
 
 Enrich Serilog log events with the request's user Id from ClaimsPrincipal.
 
-Apply the enricher to your `LoggerConfiguration` in code:
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=juntossomosmais_serilog-enrichers-request-user-id&metric=coverage)](https://sonarcloud.io/dashboard?id=juntossomosmais_serilog-enrichers-request-user-id)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=juntossomosmais_serilog-enrichers-request-user-id&metric=alert_status)](https://sonarcloud.io/dashboard?id=juntossomosmais_serilog-enrichers-request-user-id)
+[![Nuget](https://img.shields.io/nuget/v/Serilog.Enrichers.RequestUserId)](https://www.nuget.org/packages/Serilog.Enrichers.RequestUserId/)
+
+To use the enricher, first install the NuGet package:
+
+```
+dotnet add package Serilog.Enrichers.RequestUserId
+```
+
+Then, apply the enricher to your `LoggerConfiguration` in code:
 
 ```c#
 Log.Logger = new LoggerConfiguration()
