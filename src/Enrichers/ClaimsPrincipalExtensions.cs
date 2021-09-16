@@ -8,7 +8,6 @@ namespace Serilog.Enrichers
         public static string GetUserId(this ClaimsPrincipal claimsPrincipal)
         {
             var claims = claimsPrincipal.FindAll(t => t.Type is "cid" or "uid");
-            var claims = claimsPrincipal.FindAll(t => t.Type is "cid" or "uid").ToList();
 
             if (!claims.Any()) return string.Empty;
 
